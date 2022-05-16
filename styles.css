@@ -1,0 +1,41 @@
+body {
+  padding: 10px;
+  margin: 0;
+}
+
+.shadows {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10vw;
+  justify-items: stretch;
+}
+.shadows > div {
+  aspect-ratio: 1;
+  border: 1px solid #cccccc;
+  margin: 80px;
+}
+
+.elevation-1 {
+  box-shadow: inset 0 0 50px rgb(249, 246, 57), 2px 2px 2px rgba(0, 0, 0, 0.3);
+  background-color: rgba(85, 132, 47, 0.44);
+}
+.elevation-2 {
+  box-shadow: inset 0 0 50px rgba(206, 16, 16, 0.3),
+    8px 8px 8px rgba(0, 0, 0, 0.3);
+}
+.elevation-3 {
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+}
+.elevation-4 {
+  box-shadow: 10px 10px 20px rgba(255, 156, 147, 0.3);
+}
+.elevation-5 {
+  box-shadow: 20px 20px 20px rgba(31, 12, 236, 0.958),
+    40px 40px 40px rgb(74, 232, 34, 0.3), 60px 60px 60px rgb(233, 216, 28, 0.3);
+}
+
+.elevation-6 {
+  box-shadow: inset 0 0 50px rgba(96, 63, 63, 0.3),
+    50px 50px 30px rgb(234, 32, 32, 0.3);
+  background-color: rgb(246, 235, 235);
+}
