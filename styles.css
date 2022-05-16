@@ -12,7 +12,7 @@ body {
 .shadows > div {
   aspect-ratio: 1;
   border: 1px solid #cccccc;
-  margin: 80px;
+  margin: 10px;
 }
 
 .elevation-1 {
